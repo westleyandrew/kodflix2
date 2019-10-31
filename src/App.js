@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import matrix from './images/matrix.jpeg';
+import big from './images/big.jpeg';
+import captain from './images/captain.jpeg';
+import deli from './images/deli.jpeg';
+import guardians from './images/guardians.jpeg';
+import res from './images/res.jpeg';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <img src={matrix} alt='matrix' />
+      </div>
+    );
+  }
 }
 
 export default App;
