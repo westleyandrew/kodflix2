@@ -11,14 +11,14 @@ export default function Gallery() {
     return (
       <div>
         <div className='container'>
-          <Show name='The Big Lebowski' img={big} />
-          <Show name='Captain America' img={captain} />
-          <Show name='Delicatessen' img={deli} />
+          <Show id='lebowski' name='The Big Lebowski' img={big} />
+          <Show id='capt' name='Captain America' img={captain} />
+          <Show id='deli' name='Delicatessen' img={deli} />
         </div>
         <div className='container'>
-          <Show name='Guardians of the Galaxy' img={guardians} />
-          <Show name='The Matrix' img={matrix} />
-          <Show name='Reservoir Dogs' img={res} />
+          <Show id='guardians' name='Guardians of the Galaxy' img={guardians} />
+          <Show id='matrix' name='The Matrix' img={matrix} />
+          <Show id='reservoir' name='Reservoir Dogs' img={res} />
         </div>
       </div>
     )
