@@ -9,6 +9,22 @@
 .item {
   flex: 1;
   padding : 30px;
+  position: relative;
+  border: 1px solid green;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  opacity: 0.6;
+  background-color: green;
+}
+
+.item:hover .overlay {
+  opacity: 0.6;
+  bottom: 0;
 }
 
 @media only screen and (max-width: 600px) {
