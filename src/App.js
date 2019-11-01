@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Show from './Show';
 import './App.css';
 import matrix from './images/matrix.jpg';
 import big from './images/big.jpg';
@@ -14,44 +15,14 @@ class App extends Component {
       <div className='App'>
         <br />
         <div className='container'>
-          <div className='item'>
-            <img src={big} alt='big' />
-            <div>
-              <h1 className='overlay'>The Big Lebowski</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={captain} alt='captain' />
-            <div>
-              <h1 className='overlay'>Captain America</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={deli} alt='deli' />
-            <div>
-              <h1 className='overlay'>Delicatessen</h1>
-            </div>
-          </div>
-        </div>
+          <Show name='The Big Lebowski' img={big}/>
+          <Show name='Captain America' img={captain}/>
+          <Show name='Delicatessen' img={deli}/>
+        </div>  
         <div className='container'>
-          <div className='item'>
-            <img src={guardians} alt='guardians' />
-            <div>
-              <h1 className='overlay'>Guardians of the Galaxy</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={matrix} alt='matrix' />
-            <div>
-              <h1 className='overlay'>The Matrix</h1>
-            </div>
-          </div>
-          <div className='item'>
-            <img src={res} alt='res' />
-            <div>
-              <h1 className='overlay'>Reservoir Dogs</h1>
-            </div>
-          </div>
+        <Show name='Guardians of the Galaxy' img={guardians}/>
+          <Show name='The Matrix' img={matrix}/>
+          <Show name='Reservoir Dogs' img={res}/>
         </div>
       </div>
     );
