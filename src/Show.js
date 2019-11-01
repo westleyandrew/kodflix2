@@ -6,7 +6,7 @@ export default function Show(props) {
     <Link to={`/${props.id}`} className='item'>
       <img src={props.img} alt={props.name} />
       <div>
-        <h1 className='overlay'>{props.name}</h1>
+        <h3 className='overlay'>{props.name}</h3>
       </div>
     </Link >
   )
