@@ -11,9 +11,11 @@
   padding : 30px;
   position: relative;
   border: 1px solid green;
+  overflow: hidden;
 }
 
 .overlay {
+  transition: bottom ease 1s;
   position: absolute;
   bottom: -100px;
   left: 0;
