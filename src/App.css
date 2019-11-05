@@ -8,6 +8,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 } 
+img {
+  max-width: 100%;
+}
 
 .item {
   /* flex: 1;
@@ -26,6 +29,8 @@
   width: 100%;
   opacity: 0.6;
   background-color: green;
+  margin-bottom: 0;
+  padding: 15px;
 }
 
 .item:hover .overlay {
