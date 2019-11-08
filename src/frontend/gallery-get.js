@@ -1,9 +1,9 @@
-import matrix from './images/matrix.jpg';
-import big from './images/big.jpg';
-import captain from './images/captain.jpg';
-import deli from './images/deli.jpg';
-import guardians from './images/guardians.jpg';
-import res from './images/res.jpg';
+import matrix from '../images/matrix.jpg';
+import big from '../images/big.jpg';
+import captain from '../images/captain.jpg';
+import deli from '../images/deli.jpg';
+import guardians from '../images/guardians.jpg';
+import res from '../images/res.jpg';
 
 export default function getGallery() {
     return [
