@@ -15,3 +15,5 @@ export default function getGallery() {
       { id: 'reservoir', name: 'Reservoir Dogs', img: res, synopsis:'Six criminals with pseudonyms, and each strangers to one another, are hired to carry out a robbery. The heist is ambushed by police and the gang are forced to shoot their way out. At their warehouse rendezvous, the survivors, realising that they were set up, try to find the traitor in their midst.'}
     ];
   }
+
+  
